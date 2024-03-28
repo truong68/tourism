@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+
+.center-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    margin-top: 120px;
+    width: 60%;
+    height: 100%;
+    min-height: 100vh;
+
+}
+
+.title {
+    text-align: center;
+}
+
+.title h3 {
+    font-size: 30px;
+}
+
+.action {
+    display: flex;
+    list-style: none;
+}
+
+.card-group {
+    width: 100%;
+
+}
+
+.action li {
+    margin-left: 20px;
+}
+
+.action li a {
+    text-decoration: none;
+    color: rgba(151, 108, 66, 255);
+}
+
+.card-group-big {
+    display: flex;
+}
+
+.card {
+    border: 1px solid rgba(233, 233, 233, 255);
+    width: calc(100% - 20px);
+    margin: 10px 0;
+}
+
+.card-body {
+    padding: 10px 10px 100px 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.image-user {
+    margin-right: 10px;
+}
+
+.status {
+    line-height: 1px;
+    margin-right: auto;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+}
+
+.content>a {
+    text-decoration: none;
+    color: black;
+}
+
+.content>a>p {
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.content>a>p:hover {
+    color: rgba(151, 108, 66, 255);
+}
+
+.hr {
+    border-bottom: 1px solid rgba(233, 233, 233, 255);
+    width: 80%;
+}

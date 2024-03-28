@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    background-image: url("/img/icon/content.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact {
+    margin-top: 120px;
+    width: 40%;
+}
+
+.title {
+    text-align: center;
+}
+
+.form-control {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input {
+    padding: 20px;
+    width: 100%;
+}
+
+.input:hover {
+    border: 2px solid black;
+}
+
+.form-control-db {
+    width: 96%;
+    margin-left: 30px;
+}
+
+#big-input {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+#big-input:hover {
+    border: 2px solid black;
+}
+
+.form-body-btn {
+
+    width: 100%;
+    margin: 20px 0 20px 28px;
+}
+
+.btn-send {
+    width: calc(100% + 10px);
+    padding: 20px 0;
+    background-color: rgba(151, 108, 66, 255);
+    color: white;
+    border: none;
+}

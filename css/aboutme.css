@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.main {
+    padding: 100px 0px;
+}
+
+.flex-main {
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.imageMe {
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    background-color: rgba(151, 108, 66, 255);
+}
+
+.imageMe>p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    padding: 50px;
+    width: 100%
+}

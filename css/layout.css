@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container {
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.nav {
+    padding: 20px 120px 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(54, 64, 55, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+}
+
+.nav-logo {
+    min-width: 30%;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 200px;
+
+    border-radius: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: rgba(54, 64, 55, 255);
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+    color: white;
+    border: 1px solid white;
+}
+
+.search-bar input::placeholder {
+    color: white;
+}
+
+.search-bar:hover {
+    background-color: #e6e6e6;
+}
+
+.nav-menu {
+    min-width: 40%;
+}
+
+.name-logo {
+    letter-spacing: 3px;
+    padding-left: 20px;
+}
+
+.nav-ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+
+}
+
+.nav-ul li a {
+    color: white;
+}
+
+.nav-ul li a:hover {
+    color: #986C43;
+    transition: color 0.1s ease;
+
+}
+
+.footer {
+    width: 100%;
+    background-color: rgba(54, 64, 55, 255);
+    min-height: 420px;
+
+}
+
+.footer-main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-footer {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    color: white;
+    margin-right: 150px;
+}
+
+.menu-footer {
+    margin-right: 150px;
+}
+
+.nav-ul-footer {
+    list-style: none;
+}
+
+.nav-ul-footer li {
+    margin: 30px 0;
+}
+
+.nav-link-footer {
+    text-decoration: none;
+    padding: 20px 0px;
+    color: white;
+}
+
+.content-footer {
+    color: white;
+}
+
+.address {
+    width: 400px;
+    padding: 20px;
+    display: block;
+}
+
+.btn-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+    color: white;
+}
+
+.btn-footer button {
+    color: white;
+    background-color: rgba(151, 108, 66, 255);
+
+}
+
+.btn-footer button:hover {
+    background-color: #fff;
+    color: #986C43;
+}
+
+.btn-footer-style {
+    padding: 20px;
+    border: none;
+
+    transition: color 0.1s ease;
+}
+
+
+
+.copyto {
+    color: white;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 1920px) {
+    .footer {
+        width: 100%;
+    }
+
+    .footer-main {
+        width: 100%;
+    }
+
+    .nav-menu {
+        min-width: 30%;
+    }
+}
